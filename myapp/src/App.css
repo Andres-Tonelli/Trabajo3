@@ -1,0 +1,97 @@
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: gray;
+    color: goldenrod;
+}
+header{
+    margin-bottom: 0.5rem;
+}
+main{
+    margin: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.66);
+}
+footer{
+    margin-top: 1rem ;
+}
+
+p{
+    line-height: 1rem;
+}
+.navBarContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navMenu{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.66);
+    border-radius: 0px 0px 20px 20px;
+}
+.navMenuItem{
+    font-size: 1.5rem;
+}
+.navMenuItem:hover{
+    color: black;
+    cursor: pointer;
+    text-shadow: 1px 1px 10px goldenrod;
+}
+.navBarSearch{
+    border-radius: 5px;
+    background: transparent;
+}
+
+.itemImg{
+    max-width: 200px;
+}
+.itemDetailContainer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.itemDetail{
+    padding: 0.5rem;
+}
+
+.flex{
+    display: flex;
+}
+.precio{
+    color: chartreuse;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.stock{
+    justify-content: space-between;
+}
+.itemTitle{
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.footerContainer{
+    justify-content: space-between;
+}
+
+.footerIcon{
+    border-radius: 0.4rem;
+    margin-right: 0.5rem;
+    max-height: 50px;
+}
+
+.footerContainerCurso{
+    align-items: center;
+    flex-direction: column;
+}
+.footerContainer{
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.66);
+    border-radius: 20px 20px 0px 0px;
+}
